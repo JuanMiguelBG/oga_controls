@@ -187,7 +187,10 @@ int main(int argc, char* argv[]) {
       config_anbernic(&inputstr[0]);
     }
     else if (strcmp(argv[2], "oga") == 0) {
-      config_ogx(&inputstr[0]);
+      config_oga(&inputstr[0]);
+    }
+    else if (strcmp(argv[2], "oga1") == 0) {
+      config_oga1(&inputstr[0]);
     }
     else if (strcmp(argv[2], "rk2020") == 0) {
       config_rk2020(&inputstr[0]);
